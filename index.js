@@ -1,12 +1,12 @@
 const fs = require('fs');
 
 const linkFinder = path => {
-  // Leia todo o conteúdo do arquivo Markdown solicitado
+  // Lendo todo o conteúdo do arquivo Markdown solicitado
   const contents = fs.readFileSync(path, 'utf8');
 
   const links = [];
 
-  // Use regex para extrair textos e URLs dos links do arquivo Markdown
+  // Usando regex para extrair textos e URLs dos links do arquivo Markdown
   const re = /[^!]\[([^[]*)\]\((http[^)]*)\)/g;
   const matches = contents.matchAll(re);
   for (match of matches) {
