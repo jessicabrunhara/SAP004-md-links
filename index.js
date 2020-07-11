@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const linkFinder = path => {
+module.exports.linkFinder = (path) => {
   // Lendo todo o conteúdo do arquivo Markdown solicitado
   const contents = fs.readFileSync(path, 'utf8');
 
@@ -15,11 +15,14 @@ const linkFinder = path => {
       href: match[2],
       file: path,
     };
+
+
     links.push(link);
   }
 
   return links;
 };
 
-const foundLinks = linkFinder('README.md');
-console.log(foundLinks);
+//const foundLinks = linkFinder('README.md');
+
+//console.log(foundLinks);
