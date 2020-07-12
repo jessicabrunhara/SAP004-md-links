@@ -1,8 +1,16 @@
 #!/usr/bin/env node
 
-const mdLinks = require('./index.js');
+const { mdLinks } = require('./index.js');
 
 const [, , ...args] = process.argv
 
-const linksFound = mdLinks.linkFinder(args[0]) // primeiro atributo na linha de comando, args 0
-console.log(linksFound);
+const options = {
+  validate: false
+};
+
+if (args.includes('--validate')) {
+  options.validate = true;
+}
+
+const linksFound = mdLinks(args[0], options)
+linksFound.then(results => console.log(results))

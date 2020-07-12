@@ -1,6 +1,8 @@
 {
   "name": "md-links",
   "version": "0.1.0",
+  "description": "Biblioteca para leitura de links em arquivos Markdown",
+  "main": "index.js",
   "dependencies": {
     "axios": "^0.19.2"
   },
@@ -9,6 +11,6 @@
     "jest": "^26.1.0"
   },
   "bin": {
-    "mdLinks": "./cli.js"
+    "md-links": "./cli.js"
   }
 }
