@@ -40,7 +40,8 @@ md-links < arquivo >&nbsp;
 
 Exemplo: md-links README.md
 
-* É possível também verificar se o link é válido ou não, através do comando:&nbsp;
+* É possível também verificar se o link é válido ou não, através do comando:
+&nbsp;
 &nbsp;md-links < arquivo > --validate
 
 ## Autoria
