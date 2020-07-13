@@ -1,7 +1,7 @@
 ## 1. Prefácio
 
 [Markdown 
-continuação ](https://pt.wikipedia.org/wpiki/Markdown) é uma linguagem de marcação
+continuação ](https://pt.wikipedia.org/wiki/Markdown) é uma linguagem de marcação
 muito popular entre os programadores. É usada em muitas plataformas que
 manipulam texto (GitHub, fórum, blogs e etc) e é muito comum encontrar arquivos
 com este formato em qualquer repositório (começando pelo tradicional
@@ -15,6 +15,7 @@ Uma comunidade open source nos propôs criar uma ferramenta, usando
 [Node.js](https://nodejs.org/), que leia e analise arquivos no formato
 `Markdown`, para verificar os arquivos que contenham links e mostrar algumas
 estatísticas.
+[Linkerrado](https://esselinknaaaaaoexisteeeeeee.com/)
 
 ![md-links](https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96ad-9cc5593715a6.jpg)
 
@@ -34,3 +35,4 @@ _stdin/stdout/stderr_).
 
 Neste projeto você criará uma ferramenta de linha de comando (CLI) assim como a
 sua própria biblioteca (library) em JavaScript.
+
