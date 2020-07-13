@@ -36,7 +36,8 @@ estatísticas.
 
 * Após instalar a biblioteca, é possível utilizá-la chamando pela linha de comando:
 
-md-links < arquivo >.
+md-links < arquivo >&nbsp;
+
 Ex: md-links README.md
 
 É possível também verificar se o link é válido ou não, através do comando:
