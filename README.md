@@ -38,9 +38,9 @@ estatísticas.
 
 md-links < arquivo >&nbsp;
 
-Ex: md-links README.md
+Exemplo: md-links README.md
 
-É possível também verificar se o link é válido ou não, através do comando:
+É possível também verificar se o link é válido ou não, através do comando:&nbsp;
 md-links < arquivo > --validate
 
 ## Autoria
